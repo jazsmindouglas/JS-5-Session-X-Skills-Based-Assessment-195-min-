@@ -6,19 +6,24 @@
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </head>
 
 <body>
-  
-  
+<h2>Input your information</h2>
 
- <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+<form class="person">
+  <div>
+    <input name="firstName" type="text" id="firstName" placeholder="First Name">
+    <input name="lastName" type="text" id="lastName" placeholder="Last Name" >
+    <input name ="age" type="text" id="age" placeholder="Age">
+    <button id="submit" >Submit</button>
+  </div>
+  
+  <span id="input"></span>
+</form> 
+
 </body>
+  
 
 </html>
